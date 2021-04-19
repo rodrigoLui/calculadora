@@ -12,7 +12,7 @@ function back(params) {
 function calcular(params) {
     var resultado = document.getElementById('resultado').innerHTML;
     if (resultado) {
-        document.getElementById('resultado').innerHTML = eval(resultado);
+        document.getElementById('resultado').innerHTML = eval(resultado).toFixed(2);
     }else{
         document.getElementById('resultado').innerHTML = "Vazio!";
     }
