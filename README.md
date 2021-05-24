@@ -1,2 +1,2 @@
 # calculadora
-primeira calculadora com JavaScript
+Minha primeira calculadora com JavaScript
